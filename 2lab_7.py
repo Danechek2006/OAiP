@@ -1,7 +1,6 @@
-a = input()
-b = int(input())
+a = input('категорию товара: ')
+b = int(input('ввод цены': ))
 if a == "producte":
-    print('ввод цены')
     if b < 100:
         print('Попробуйте нашу выпечку!')
     elif 100 <= b < 500:
